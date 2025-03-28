@@ -7,3 +7,4 @@ dvc
 lightgbm
 joblib
 dvc_s3
+pytest
