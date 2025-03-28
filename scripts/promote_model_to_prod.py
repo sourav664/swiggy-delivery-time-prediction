@@ -24,8 +24,9 @@ stage = "Staging"
 # get the latest version from staging stage
 client = MlflowClient()
 
-# get the latest version of model in staging
+# get the latest version of model in staging area
 latest_versions = client.get_latest_versions(name=model_name,stages=[stage])
+
 
 latest_model_version_staging = latest_versions[0].version
 
