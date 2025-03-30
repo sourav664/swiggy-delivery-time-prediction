@@ -90,7 +90,7 @@ jobs:
             aws deploy create-deployment \
             --application-name deliverytimeprediction \
             --deployment-config-name CodeDeployDefault.OneAtATime \
-            --deployment-group-name deliverytimepredictiondeploymentgroup \
+            --deployment-group-name deliverytimepredictiondeploymentgroup1 \
             --s3-location bucket=deliverytimepredictiondeployment1,key=deployment.zip,bundleType=zip \
             --file-exists-behavior OVERWRITE \
             --region eu-north-1
