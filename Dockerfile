@@ -13,7 +13,7 @@ COPY requirements-dockers.txt ./
 # install the packages
 RUN pip install -r requirements-dockers.txt
 
-# copy the app contents and  copies the preprocessor.joblib file from 
+# copy the app contents and copies the preprocessor.joblib file from 
 # the models folder on your local machine to the same models folder inside the Docker container.
 COPY app.py ./
 COPY ./models/preprocessor.joblib ./models/preprocessor.joblib
