@@ -23,7 +23,6 @@ This ensemble strategy improves prediction accuracy by combining the strengths o
 - Compared multiple experiment runs to select the **best-performing model** based on evaluation metrics
 - Promoted the selected model through MLflow model stages for downstream deployment
 
-
 ---
 
 ## 📊 Dataset
@@ -91,9 +90,7 @@ From the order time, the following features were extracted:
 - Date and time features help model **traffic rush hours and weekend effects**
 - Improves model generalization and prediction accuracy
 
-
 ---
-
 
 ## 📈 Model Performance
 Evaluated on unseen test data:
@@ -136,7 +133,8 @@ Designed a **production-grade ML pipeline** with the following tools:
 - DVC  
 - Docker
 - FASTAPI  
-- GitHub Actions  
+- GitHub Actions
+- LightGBM  
 - AWS (S3, EC2, ECR, CodeDeploy)
 
 ---
