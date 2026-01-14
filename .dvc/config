@@ -1,4 +1,4 @@
 [core]
     remote = myremote
 ['remote "myremote"']
-    url = s3://food-delivery-time-pred-bucket
+    url = s3://universal-remote-bucket
